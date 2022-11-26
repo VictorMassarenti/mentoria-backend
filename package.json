@@ -1,7 +1,16 @@
 {
+  
+  "name": "mentoria-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VictorMassarenti/mentoria-backend.git",
+  "author": "Victor Massarenti <victormassarenti@gmail.com>",
+  "license": "MIT",
+
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "prisma": "^4.6.1"
   }
 }
+

@@ -1,0 +1,76 @@
+<h1>Welcome</h1>
+<h1>Projeto 1</h1>
+
+<h3>Create Object</h3>
+<form method="POST" action="/create-object">
+    <input type="text" name="id" placeholder="Enter Id">
+    <input type="text" name="name" placeholder="Enter Name">
+    <button type="submit">CREATE</button>
+</form>
+
+<h3>Read all Objects</h3>
+<form method="GET" action="/read-all-objects">
+    <button type="submit">READ</button>
+</form>
+
+<h3>Read single Object</h3>
+<form method="POST" action="/read-object">
+    <input type="text" name="id" placeholder="Enter Id">
+    <button type="submit">READ</button>
+</form>
+
+<h3>Update Object</h3>
+<form method="POST" action="/update-object">
+    <input type="text" name="id" placeholder="Enter new Id">
+    <input type="text" name="name" placeholder="Enter new Name">
+    <button type="submit">UPDATE</button>
+</form>
+
+<h3>Delete Object</h3>
+<form method="GET" action="/delete-object">
+    <input type="text" name="id" placeholder="Enter Id">
+    <button type="submit">DELETE</button>
+</form>
+
+<h1>Projeto 3</h1>
+
+<h3>Create User</h3>
+<form method="POST" action="/create-user">
+    <input type="text" name="email" placeholder="Enter Email">
+    <input type="text" name="username" placeholder="Enter Username">
+    <input type="text" name="password" placeholder="Enter Password">
+    <button type="submit">CREATE</button>
+</form>
+
+<h3>Login User</h3>
+<form method="POST" action="/login-user">
+    <input type="text" name="email" placeholder="Enter Email">
+    <input type="text" name="password" placeholder="Enter Password">
+    <button type="submit">LOGIN</button>
+</form>
+
+<h3>Search User</h3>
+<form method="POST" action="/search-user">
+    <input type="text" name="username" placeholder="Enter Username">
+    <button type="submit">SEARCH</button>
+</form>
+
+<h1>Projeto 4</h1>
+
+<h3>Upload User Img</h3>
+<form method="POST" action="/upload-user-img">
+    <input type="file" name="file">
+    <button type="submit">UPLOAD</button>
+</form>
+
+<h3>Search User from GitHub</h3>
+<form method="POST" action="/search-user-github">
+    <input type="text" name="username" placeholder="Enter Username">
+    <button type="submit">SEARCH</button>
+</form>
+
+<h3>Search Org from GitHub</h3>
+<form method="POST" action="/search-org-github">
+    <input type="text" name="Org" placeholder="Enter Org">
+    <button type="submit">SEARCH</button>
+</form>
